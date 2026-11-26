@@ -4,7 +4,7 @@ Personal portfolio website inspired by dark glassmorphism minimalism, built with
 
 ## Features
 
-- **Dark Glassmorphism UI** (`#111111` base, blue-to-red accents, `DM Sans` + `Inter` typography)
+- **Dark Glassmorphism UI** (`#111111` base, neon-blue accents, subtle grid background, `DM Sans` + `Inter` typography)
 - **Floating Navigation** with scroll-spy active indicators and mobile bottom dock
 - **Interactive Skill-to-Project Highlighting** on hover in the About section
 - **Cursor-Tracking Spotlight Glow** across glass cards
@@ -14,7 +14,7 @@ Personal portfolio website inspired by dark glassmorphism minimalism, built with
 
 - **Profile Photo**: Add your portrait as `profile.jpg` in the project root. Until added, it falls back to the GitHub profile avatar.
 - **Content & Links**: Edit `index.html` to add more projects, experience entries, or a resume link.
-- **Accent Colors**: Change `--accent` and `--accent-secondary` in `style.css` to adjust the blue-to-red highlights.
+- **Accent Color**: Change `--accent` and `--accent-bright` in `style.css` to adjust the blue highlights.
 
 ## Local Preview
 

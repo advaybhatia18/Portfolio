@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500" role="img" aria-label="Advay Bhatia — AdiizzHQ">
   <defs>
     <radialGradient id="glow" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#778BFF" stop-opacity="0.22"/>
-      <stop offset="55%" stop-color="#EF647F" stop-opacity="0.12"/>
+      <stop offset="0%" stop-color="#778BFF" stop-opacity="0.26"/>
+      <stop offset="55%" stop-color="#5878FF" stop-opacity="0.12"/>
       <stop offset="65%" stop-color="#181818" stop-opacity="0.1"/>
       <stop offset="100%" stop-color="#111111" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#778BFF"/>
-      <stop offset="100%" stop-color="#EF647F" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#5878FF" stop-opacity="0.35"/>
     </linearGradient>
     <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
       <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
@@ -28,6 +28,6 @@
   <rect x="164" y="248" width="72" height="3" rx="1.5" fill="#778BFF"/>
 
   <!-- Studio caption -->
-  <text x="200" y="388" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#EF647F" letter-spacing="4">ADIIZZHQ</text>
+  <text x="200" y="388" text-anchor="middle" font-family="'DM Sans', Arial, sans-serif" font-size="14" font-weight="700" fill="#AAB7FF" letter-spacing="4">ADIIZZHQ</text>
   <text x="200" y="414" text-anchor="middle" font-family="'Inter', Arial, sans-serif" font-size="12" fill="#A0A0A0" letter-spacing="2">YMCA · B.TECH CE</text>
 </svg>
