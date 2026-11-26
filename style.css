@@ -7,9 +7,12 @@
 :root {
   --bg-color: #111111;
   --bg-gradient:
-    radial-gradient(ellipse at 12% 18%, rgba(84, 112, 255, 0.13), transparent 34%),
-    radial-gradient(ellipse at 88% 55%, rgba(84, 112, 255, 0.08), transparent 32%),
-    radial-gradient(circle at 50% 0%, #202432, #111111 70%);
+    radial-gradient(ellipse at 12% 18%, rgba(84, 112, 255, 0.24), transparent 36%),
+    radial-gradient(ellipse at 88% 55%, rgba(84, 112, 255, 0.16), transparent 34%),
+    radial-gradient(circle at 50% 0%, #202638, #111111 72%),
+    linear-gradient(rgba(119, 139, 255, 0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(119, 139, 255, 0.11) 1px, transparent 1px),
+    radial-gradient(circle, rgba(145, 164, 255, 0.6) 1px, transparent 1.5px);
   --accent: #778BFF;
   --accent-bright: #AAB7FF;
   --accent-gradient: linear-gradient(135deg, var(--accent-bright), #5878FF);
@@ -25,34 +28,19 @@
 
 html {
   background: var(--bg-color);
-  background-image: var(--bg-gradient);
-  background-attachment: fixed;
 }
 
 body {
-  position: relative;
-  isolation: isolate;
   min-height: 100vh;
-  background: transparent;
+  background-color: var(--bg-color);
+  background-image: var(--bg-gradient);
+  background-size: auto, auto, auto, 56px 56px, 56px 56px, 56px 56px;
+  background-attachment: fixed;
   color: var(--text-muted);
   font-family: var(--body);
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
   overflow-x: hidden;
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 0.35;
-  background-image:
-    linear-gradient(rgba(119, 139, 255, 0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(119, 139, 255, 0.07) 1px, transparent 1px);
-  background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse at center, #000 0%, transparent 78%);
 }
 
 /* Floating Navigation */
